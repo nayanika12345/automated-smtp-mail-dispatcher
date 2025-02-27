@@ -146,8 +146,8 @@ def log_email_event(email, status):
     connection.close()
 
 def send_email(subject, body, recipients, email_service='gmail'):
-    sender_email = "hanumanagasiddikkone@gmail.com" if email_service == 'gmail' else "nayanikakolli@outlook.com"
-    password = "jqcu kjgs faqn yrbf" if email_service == 'gmail' else "mtgoevfqvktdxrzg"
+    sender_email = "use gmail@gmail.com" if email_service == 'gmail' else "use outlookl@outlook.com"
+    password = "use your password" if email_service == 'gmail' else "use your password"
     
     try:
         for email in recipients:
